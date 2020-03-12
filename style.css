@@ -8,7 +8,6 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(100px, 1fr));
-  grid-template-rows: repeat(5, minmax(1000px, 1fr)));
   width: 100%;
 }
 
@@ -22,8 +21,6 @@ body {
   height: auto;
 }
 
-.tokyo-city img {}
-
 .city-box-grid {
   grid-row: 1 / 2;
   grid-column: 1 / span 5;
@@ -32,7 +29,9 @@ body {
 .city-box {
   background-color: rgba(0, 0, 0, 55%);
   border: 1px solid white;
-  margin: auto;
+  margin: 0px;
+  justify-self: center;
+  align-self: center;
   display: grid;
   grid-row: 1 / 2;
   grid-column: 1 / span 5;
@@ -46,7 +45,10 @@ body {
   font-family: mistral;
   text-align: center;
   font-size: 200px;
-  margin: auto;
+  height: 200px;
+  margin: 0px;
+  justify-self: center;
+  align-self: center;
   display: grid;
   grid-row: 1 / 2;
   grid-column: 1 / span 5;
@@ -74,8 +76,9 @@ body {
   margin-left: 100px;
   color: white;
   text-align: left;
-  align-self: end;
-  max-width: 720px;
+  align-self: start;
+  max-width: 790px;
+  height: auto;
 }
 
 .tokyo-article1 h3 {
@@ -93,12 +96,12 @@ body {
 .tokyo-article2 {
   border-right: 1px solid white;
   grid-column: 3 / span 2;
-  grid-row: 3 / span 2;
+  grid-row: 4 / span 2;
   margin-right: 100px;
   color: white;
   text-align: right;
-  align-self: end;
-  max-width: 720px;
+  align-self: start;
+  max-width: 790px;
 }
 
 .tokyo-article2 h3 {
@@ -116,12 +119,12 @@ body {
 .tokyo-article3 {
   border-left: 1px solid white;
   grid-column: 1 / span 2;
-  grid-row: 5 / span 2;
+  grid-row: 7 / span 2;
   margin-left: 100px;
   color: white;
   text-align: left;
-  align-self: end;
-  max-width: 720px;
+  align-self: start;
+  max-width: 790px;
 }
 
 .tokyo-article3 h3 {
