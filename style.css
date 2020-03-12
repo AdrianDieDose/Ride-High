@@ -144,3 +144,39 @@ body {
   font-size: 2rem;
   padding-left: 20px;
 }
+
+/* MediaQ for heading */
+@media (max-width: 1400px) {
+  .city-box {
+    width: 300px;
+    height: 300px;
+  }
+
+  .heading-text {
+    font-size: 130px;
+  }
+
+  .tokyo-article1 {
+    border-left: 0px solid white;
+    border-bottom: 1px solid white;
+    margin-left: 0px;
+    grid-column: 1 / span 4;
+    text-align: center;
+  }
+
+  .tokyo-article2 {
+    border-right: 0px solid white;
+    border-bottom: 1px solid white;
+    margin-right: 0px;
+    grid-column: 1 / span 4;
+    text-align: center;
+  }
+
+  .tokyo-article3 {
+    border-left: 0px solid white;
+    border-bottom: 1px solid white;
+    margin-left: 0px;
+    grid-column: 1 / span 4;
+    text-align: center;
+  }
+}
