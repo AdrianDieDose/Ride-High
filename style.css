@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'mistralregular';
+  src: url('./Font/mistral-webfont.woff2') format('woff2'),
+    url('./Font/mistral-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0px auto;
   padding: 0px 0px;
@@ -42,7 +50,7 @@ body {
 .heading-text {
   color: white;
   border: 0px solid white;
-  font-family: mistral;
+  font-family: mistralregular;
   text-align: center;
   font-size: 200px;
   margin: 0px;
