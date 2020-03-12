@@ -1,0 +1,138 @@
+body {
+  margin: 0px auto;
+  padding: 0px 0px;
+  width: 100%;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+  grid-template-rows: repeat(5, minmax(1000px, 1fr)));
+  width: 100%;
+}
+
+/*  Heading  */
+.tokyo-city {
+  grid-area: header;
+  grid-row: 1 / 2;
+  grid-column: 1 / span 5;
+  background-color: black;
+  border-bottom: 2px solid white;
+}
+
+.tokyo-city img {
+  width: 100%;
+  height: auto;
+}
+
+.city-box-grid {
+  grid-row: 1 / 2;
+  grid-column: 1 / span 5;
+}
+
+.city-box {
+  background-color: rgba(0, 0, 0, 55%);
+  border: 1px solid white;
+  margin: auto;
+  display: grid;
+  grid-row: 1 / 2;
+  grid-column: 2 / span 3;
+  height: 500px;
+  width: 500px;
+}
+
+.heading-text {
+  color: white;
+  border: 0px solid white;
+  font-family: mistral;
+  text-align: center;
+  font-size: 200px;
+  margin: auto;
+  display: grid;
+  grid-row: 1 / 2;
+  grid-column: 1 / span 5;
+}
+
+/* Main */
+.main-grid {
+  grid-column: 1 / span 5;
+  grid-row: 2 / span 5;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  grid-template-rows: repeat(6, minmax(100px, 1fr));
+  padding-top: 100px;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Article 1 */
+.tokyo-article1 {
+  border-left: 1px solid white;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  margin-left: 100px;
+  color: white;
+  text-align: left;
+  align-self: end;
+  max-width: 720px;
+}
+
+.tokyo-article1 h3 {
+  margin-top: 32px;
+  font-size: 4rem;
+  padding-left: 20px;
+}
+
+.tokyo-article1 p {
+  font-size: 2rem;
+  padding-left: 20px;
+}
+
+/* Article 2 */
+.tokyo-article2 {
+  border-right: 1px solid white;
+  grid-column: 3 / span 2;
+  grid-row: 3 / span 2;
+  margin-right: 100px;
+  color: white;
+  text-align: right;
+  align-self: end;
+  max-width: 720px;
+}
+
+.tokyo-article2 h3 {
+  margin-top: 32px;
+  font-size: 4rem;
+  padding-right: 20px;
+}
+
+.tokyo-article2 p {
+  font-size: 2rem;
+  padding-right: 20px;
+}
+
+/* Article 3 */
+.tokyo-article3 {
+  border-left: 1px solid white;
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 2;
+  margin-left: 100px;
+  color: white;
+  text-align: left;
+  align-self: end;
+  max-width: 720px;
+}
+
+.tokyo-article3 h3 {
+  margin-top: 32px;
+  font-size: 4rem;
+  padding-left: 20px;
+}
+
+.tokyo-article3 p {
+  font-size: 2rem;
+  padding-left: 20px;
+}
